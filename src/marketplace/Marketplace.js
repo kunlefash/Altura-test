@@ -17,8 +17,6 @@ import nft11 from "../assets/image_0014.png";
 import nft12 from "../assets/ny_building_02.jpg";
 
 
-
-
 function Marketplace() {
   return (
     <div>
