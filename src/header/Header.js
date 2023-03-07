@@ -57,12 +57,10 @@ export default function Header() {
         <p>Please Install MataMask</p>
       )}
       <nav className="nav">
-        <span className="sitename">HOMEWORKS</span>
+        <span className="sitename">My NFT WALLET</span>
         <ul className="nav-items">
         <Link to='/marketplace'>
-        <li className="metaverse">Metaverse NFT Collections</li></Link>
-          <li>Loan Seeker</li>
-          <li>Investor</li>
+        <li className="metaverse"> NFT Collections</li></Link>
           <li>
             {isConnected ? (
               <p className="info">🎉 Connected Successfully</p>
