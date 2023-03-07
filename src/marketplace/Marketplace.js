@@ -1,7 +1,7 @@
 import React from "react";
 import "./marketplace.css";
-import Header from "../home/header/Header";
-import Footer from "../home/footer/Footer";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 import Market from "./market/Market";
 import nft1 from "../../assets/624c8c6d91d58f79a0e4d49b.jpg";
 import nft2 from "../../assets/european_house_06.jpg";
@@ -25,7 +25,7 @@ function Marketplace() {
       <Header />
       <div className="marketplacecontainer-header">
         <h1 className=".marketplacecontainer-headertext">
-          METAVERSE NFT COLLECTIONS
+           NFT COLLECTIONS
         </h1>
         <button type="input" className="marketplacesearch-btn">Search</button>
       </div>
