@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import nfts from "../../assets/624c8c6d91d58f79a0e4d49b.jpg";
 
 
 function Modal({ nft }) {
@@ -32,11 +31,5 @@ function Modal({ nft }) {
 }
 export default Modal;
 
-export default function App() {
-  return (
-    <div>
-      {nfts.map(nft => <Modal nft={nft} key={nft.owner} />)}
-    </div>
-  );
-}
+
 

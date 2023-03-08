@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Modal from "../modal/Modal"
 import "./market.css";
+import nfts from "../../assets/624c8c6d91d58f79a0e4d49b.jpg";
 
 export default function Market(props, { index }) {
   return (
@@ -18,4 +20,11 @@ export default function Market(props, { index }) {
       </div>
     </div>
   );
+   function App() {
+    return (
+      <div>
+        {nfts.map(nft => <Modal nft={nft} key={nft.owner} />)}
+      </div>
+    );
+  }
 }

@@ -116,7 +116,6 @@ function Marketplace() {
           THE BEST MARKETPLACE TO OWN AN NFT COLLECTION!
         </div>
       </div>
-
       <Footer />
     </div>
   );
